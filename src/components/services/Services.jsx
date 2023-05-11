@@ -54,6 +54,13 @@ const Services = () => {
                   </p>
                 </li>
 
+                <li className="services__modal-service grid">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Seamless communication with customers
+                  </p>
+                </li>
+
                 <li className="services__modal ">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">Web page development.</p>
@@ -101,13 +108,15 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    To make the page feel alive...
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">
+                    Optimized screen at all times
+                  </p>
                 </li>
               </ul>
             </div>
@@ -146,12 +155,22 @@ const Services = () => {
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">데이터베이스입니다.</p>
+                  <p className="services__modal-info">
+                    {' '}
+                    real-time accessibility{' '}
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">데이터베이스입니다.</p>
+                  <p className="services__modal-info">
+                    Continuous evolution (CRUD)
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">Simultaneous sharing</p>
                 </li>
               </ul>
             </div>

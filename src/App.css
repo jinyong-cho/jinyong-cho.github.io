@@ -3,16 +3,16 @@
 
 /* <!=========================== VARIABLES CSS =============================>*/
 :root {
-  --header-height: 3rem;
+  --header-height: 3rem; /*머리글(header)의 높이(height) 값 지정*/
 
   /* <!=========================== Colors =============================>*/
-  --hue: 0;
+  --hue: 0; /*색상(Hue)과 채도(Saturation)의 값을 지정하는 변수*/
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --title-color: hsl(var(--hue), var(--sat), 20%); /*제목(Title) 색상을 지정하는 변수*/
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%); /*어두운 배경에서 사용할 제목 색상을 지정하는 변수*/
+  --text-color: hsl(var(--hue), var(--sat), 46%); /*본문에서 사용할 색상을 지정하는 변수*/
+  --body-color: hsl(var(--hue), var(--sat), 98%); /*페이지의 배경색을 지정하는 변수*/
+  --container-color: #fff; /*컨테이너(영역)의 배경색을 지정하는 변수*/
 
   /* <!=========================== Font and typography =============================>*/
   --body-font: 'Poppins', sans-serif;

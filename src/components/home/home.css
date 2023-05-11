@@ -1,15 +1,15 @@
 .home__content {
   grid-template-columns: 116px repeat(2, 1fr);
-  padding-top: 5.5rem;
-  column-gap: 2rem;
-  align-items: center;
+  padding-top: 5.5rem; /* 그리드 컨테이너의 위쪽 여백을 지정*/
+  column-gap: 2rem; /*열(column) 사이의 간격을 지정*/
+  align-items: center; /*그리드 아이템들 중앙정렬*/
 }
 
 /* main(좌측 인스타그램~github 영역) */
 .home__social {
-  display: grid;
-  grid-template-columns: max-content;
-  row-gap: 1rem;
+  display: grid; /*해당 요소를 그리드 컨테이너(Grid Container)로 만듬*/
+  grid-template-columns: max-content; /*그리드 컨테이너 내에서 열(column)의 크기를 지정*/
+  row-gap: 1rem; /*행(row) 사이의 간격을 지정*/
 }
 .home__social-icon {
   font-size: 1.25rem;
